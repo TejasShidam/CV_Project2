@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.pyd
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and runtime files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data/model artifacts
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# Docker
+docker-compose.override.yml
+
+# Secret files
+*.key
+*.pem
+*.crt
+*.env.local
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Coverage reports
+coverage/
+
+# Misc
+.idea/
+*.swp
+*.swo
